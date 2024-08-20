@@ -16,7 +16,7 @@
       "id": "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer#jwk",
       "type": "JsonWebKey",
       "controller": "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer",
-      "publicKeyMultibase": {
+      "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
         "x": "G6QHW3fJ4_s-zeFc2vUiHzwQNz5iP3sOHvdjZrCvcTc"
