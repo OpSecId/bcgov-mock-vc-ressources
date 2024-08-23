@@ -4,18 +4,18 @@
     "https://w3id.org/security/jwk/v1",
     "https://w3id.org/security/multikey/v1"
   ],
-  "id": "did:web:trust.bcgov.traceability.site:registrations:director-of-petroleum-lands",
+  "id": "did:web:ressources.traceability.site:registrations:director-of-petroleum-lands",
   "verificationMethod": [
     {
-      "id": "did:web:trust.bcgov.traceability.site:registrations:director-of-petroleum-lands#multikey",
+      "id": "did:web:ressources.traceability.site:registrations:director-of-petroleum-lands#multikey",
       "type": "MultiKey",
-      "controller": "did:web:trust.bcgov.traceability.site:registrations:director-of-petroleum-lands",
+      "controller": "did:web:ressources.traceability.site:registrations:director-of-petroleum-lands",
       "publicKeyMultibase": "z6MkgKA7yrw5kYSiDuQFcye4bMaJpcfHFry3Bx45pdWh3s8i"
     },
     {
-      "id": "did:web:trust.bcgov.traceability.site:registrations:director-of-petroleum-lands#jwk",
+      "id": "did:web:ressources.traceability.site:registrations:director-of-petroleum-lands#jwk",
       "type": "JsonWebKey",
-      "controller": "did:web:trust.bcgov.traceability.site:registrations:director-of-petroleum-lands",
+      "controller": "did:web:ressources.traceability.site:registrations:director-of-petroleum-lands",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -24,10 +24,10 @@
     }
   ],
   "authentication": [
-    "did:web:trust.bcgov.traceability.site:registrations:director-of-petroleum-lands#multikey"
+    "did:web:ressources.traceability.site:registrations:director-of-petroleum-lands#multikey"
   ],
   "assertionMethod": [
-    "did:web:trust.bcgov.traceability.site:registrations:director-of-petroleum-lands#multikey"
+    "did:web:ressources.traceability.site:registrations:director-of-petroleum-lands#multikey"
   ],
   "service": []
 }
