@@ -4,18 +4,18 @@
     "https://w3id.org/security/jwk/v1",
     "https://w3id.org/security/multikey/v1"
   ],
-  "id": "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer",
+  "id": "did:web:ressources.traceability.site:registrations:chief-permitting-officer",
   "verificationMethod": [
     {
-      "id": "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer#multikey",
+      "id": "did:web:ressources.traceability.site:registrations:chief-permitting-officer#multikey",
       "type": "MultiKey",
-      "controller": "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer",
+      "controller": "did:web:ressources.traceability.site:registrations:chief-permitting-officer",
       "publicKeyMultibase": "z6MkgKA7yrw5kYSiDuQFcye4bMaJpcfHFry3Bx45pdWh3s8i"
     },
     {
-      "id": "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer#jwk",
+      "id": "did:web:ressources.traceability.site:registrations:chief-permitting-officer#jwk",
       "type": "JsonWebKey",
-      "controller": "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer",
+      "controller": "did:web:ressources.traceability.site:registrations:chief-permitting-officer",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -24,10 +24,10 @@
     }
   ],
   "authentication": [
-    "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer#multikey"
+    "did:web:ressources.traceability.site:registrations:chief-permitting-officer#multikey"
   ],
   "assertionMethod": [
-    "did:web:trust.bcgov.traceability.site:registrations:chief-permitting-officer#multikey"
+    "did:web:ressources.traceability.site:registrations:chief-permitting-officer#multikey"
   ],
   "service": []
 }
