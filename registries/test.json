@@ -1,0 +1,14 @@
+{
+  "issuers": [
+    {
+      "id": "did:web:test.digitaltrust.traceability.site:petroleum-and-natural-gas-act:director-of-petroleum-lands",
+      "name": "Director of Petroleum Lands",
+      "scope": "Petroleum and Natural Gas Act"
+    },
+    {
+      "id": "did:web:test.digitaltrust.traceability.site:mines-act:chief-permitting-officer",
+      "name": "Chief Permitting Officer",
+      "scope": "Mines Act"
+    }
+  ]
+}
